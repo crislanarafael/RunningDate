@@ -1,7 +1,8 @@
 <?php
 //global $link;
   //Include config file
-
+/* Project utilized some Tutorial Republic source code to understand how to implment a login/registration system
+Link: https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php */
   require_once "config.php";
 
   //Define variables and initialize with empty values
