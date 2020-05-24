@@ -2,6 +2,9 @@
 // Initialize the session
 session_start();
 
+/* Project utilized some Tutorial Republic source code to understand how to implment a login/registration system
+Link: https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php */
+
 // Check if the user is logged in, if not then redirect to login page
 if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     header("location: login.php");
