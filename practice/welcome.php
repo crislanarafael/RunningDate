@@ -1,4 +1,8 @@
 <?php
+
+/* Project utilized some Tutorial Republic source code to understand how to implment a login/registration system
+Link: https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php */
+
 // Initialize the session
 session_start();
 include("config.php");
